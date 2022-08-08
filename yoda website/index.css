@@ -1,0 +1,69 @@
+.h1{
+    padding: 60px;
+    text-align: center;
+    background: #ffffff;
+    color: rgb(250, 250, 250);
+    font-size: 30px;
+    position:relative;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.header a.active {
+    color:aquamarine;
+    font-size: 20px;
+    font-weight: 700px;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+  .header a.logo {
+    font-size: 25px;
+    font-weight: 700px;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    background-color: rgba(0, 0, 0, 0);
+    font-size:28px; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 120px; 
+    height: 45px;
+    border-style: groove;
+    border-radius: 5%;
+    color:white;  
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size:30px;
+    font-family:monospace;
+}
+a:hover {
+    color: rgb(123, 123, 123);
+}
+.site-header {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 0.5em 1em;
+    display: flex;
+    justify-content: space-between;
+}
+.site-identity h1 {
+    font-size: 1.5em;
+    margin: 0.6em 0;
+    display: inline-block;
+}
+.site-navigation ul,
+.site-navigation li {
+    margin: 0;
+    padding: 0;
+}
+.site-navigation li {
+    display: inline-block;
+}
